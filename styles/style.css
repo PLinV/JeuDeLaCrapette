@@ -14,14 +14,12 @@
   border-radius: 10px;
 }
 
-/* Cartes à gauche */
 .cardLeft {
-  margin-right: auto;  /* pousse la carte à gauche */
+  margin-right: auto;  
 }
 
-/* Cartes à droite */
 .cardRight {
-  margin-left: auto;   /* pousse la carte à droite */
+  margin-left: auto;   
 }
 
 .cardP1, .cardP2 {

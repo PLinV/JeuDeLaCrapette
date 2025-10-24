@@ -1,7 +1,7 @@
 import Card from './card.js'; 
 
 const symbols = ["pique", "coeur", "carreau", "tréfle"]
-const positionPossible = [0, 11, 12, 13, 31, 32, 33, 34, 35, 36, 37, 38, 41, 42, 43, 44, 51, 52, 53, 54]
+const positionPossible = [0, 1, 11, 12, 13, 21, 22, 23, 31, 32, 33, 34, 35, 36, 37, 38, 41, 42, 43, 44, 51, 52, 53, 54]
 
 const deck = {}; 
 
@@ -12,19 +12,40 @@ for (const symbol of symbols) {
   }
 }
 
+
 class Game {  
-  constructor(player1, player2) {
+  constructor(player1, player2, board = {}) {
     this.player1 = player1;
     this.player2 = player2;
     this.deckP1 = {...deck};
     this.deckP2 = {...deck};
-  } 
+    this.board = board
+    
+    board[positionPossible[0]] = Object.keys(this.deckP1);
+    board[positionPossible[1]] = Object.keys(this.deckP2);
 
-  afficher() {
-    console.log(this.deckP1["pique4"].position)
+    for(let index = 2; index <= 22; index++){
+      board[positionPossible[index]] = [];
+    }
+
+    this.randomNumber(12, 36, positionPossible[0]);
+    this.randomNumber(22, 36, positionPossible[1]);
+    this.randomNumber(13, 12, positionPossible[0]);
+    this.randomNumber(23, 12, positionPossible[1]);
+    this.randomNumber(31, 1, positionPossible[0]);
+    this.randomNumber(32, 1, positionPossible[0]);
+    this.randomNumber(33, 1, positionPossible[0]);
+    this.randomNumber(34, 1, positionPossible[0]);
+    this.randomNumber(35, 1, positionPossible[1]);
+    this.randomNumber(36, 1, positionPossible[1]);
+    this.randomNumber(37, 1, positionPossible[1]);
+    this.randomNumber(38, 1, positionPossible[1]);
+
   }
 
-
+  afficher() {
+    console.log(this.board)
+  }
 
   getPosition(nameCard, player) {
     if (player === this.player1) {
@@ -54,9 +75,19 @@ class Game {
       console.log("Player invalide !")
       return 0
     }
-
-
   }
+
+  randomNumber(position, elementCount, playerKey) {
+    const source = this.board[playerKey];
+    
+    for (let i = 0; i < elementCount; i++) {
+      const indexRandom = Math.floor(Math.random() * source.length)
+      const element = source[indexRandom];
+      
+      this.board[position].push(element);
+      source.splice(indexRandom, 1);
+    }
+  } 
 }
 
 export {Game, deck}; 
