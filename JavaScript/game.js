@@ -21,11 +21,33 @@ class Game {
     this.deckP2 = {...deck};
     this.board = board
     
-    board[positionPossible[0]] = Object.keys(this.deckP1);
-    board[positionPossible[1]] = Object.keys(this.deckP2);
+    this.deckP1 = Object.fromEntries(
+      Object.entries(this.deckP1).map(([key, value]) => {
+        const newKey = "P1_" + key;
+        return [newKey, value];
+      })
+    );
 
-    for(let index = 2; index <= 22; index++){
+    this.deckP2 = Object.fromEntries(
+      Object.entries(this.deckP2).map(([key, value]) => {
+        const newKey = "P2_" + key;
+        return [newKey, value];
+      })
+    );
+    
+    for(let index = 0; index <= 22; index++){
       board[positionPossible[index]] = [];
+    }
+
+    const keyDeckP1 = Object.keys(this.deckP1);
+    const keyDeckP2 = Object.keys(this.deckP2);
+
+    for (let element in keyDeckP1) {
+      this.board[0].push([keyDeckP1[element], 0])
+    }
+
+    for(let element in keyDeckP2) {
+      this.board[1].push([keyDeckP2[element], 0])
     }
 
     this.randomNumber(12, 36, positionPossible[0]);
