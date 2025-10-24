@@ -1,7 +1,8 @@
 export default class Card {  
-  constructor(symbol, num) {
+  constructor(symbol, num, position=0) {
     this.symbol = symbol;
     this.num = num; 
+    this.position = position;
   }
 
   cardMove(newPosition){

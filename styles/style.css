@@ -1,0 +1,47 @@
+#Card {
+  display: flex;
+  justify-content: space-between; 
+  gap: 20px;
+  padding: 20px;
+}
+
+.playerColumn {
+  display: flex;
+  flex-wrap: wrap;       
+  width: 45%;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* Cartes à gauche */
+.cardLeft {
+  margin-right: auto;  /* pousse la carte à gauche */
+}
+
+/* Cartes à droite */
+.cardRight {
+  margin-left: auto;   /* pousse la carte à droite */
+}
+
+.cardP1, .cardP2 {
+  width: 80px;
+  height: 120px;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.cardP1 {
+  border: 2px solid red;
+}
+
+.cardP2 {
+  border: 2px solid blue;
+}
