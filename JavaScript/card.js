@@ -1,15 +1,17 @@
-export default class Card {  
-  constructor(symbol, num, position=0) {
+export default class Card {
+  constructor(symbol, num, tags) {
     this.symbol = symbol;
-    this.num = num; 
-    this.position = position;
+    this.num = num;
+    this.tags = tags;
+  }
+  static symbols = ['pique', 'coeur', 'carreau', 'tréfle'];
+
+  discover() {
+    this.tags[1] = true
   }
 
-  cardMove(newPosition){
-    this.position = newPosition;
+  cover() {
+    this.tags[0] = false
   }
-
-  afficher() {
-    console.log(`${this.num} de ${this.symbol}`);
-  }
+  
 }

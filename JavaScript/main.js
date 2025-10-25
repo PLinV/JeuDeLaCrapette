@@ -1,5 +1,4 @@
-import { deck, Game } from './game.js';
-import Card from './card.js'; 
+import Game from './game.js';
 
 const game1 = new Game("paulin", "anna")
 
