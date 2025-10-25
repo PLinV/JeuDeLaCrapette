@@ -24,7 +24,7 @@ export default class Deck {
   }
 
   take(n) {
-    return this.cards.slice (0, n - 1);
+    return this.cards.slice(0, n);
   }
 
   static random(tag) {
