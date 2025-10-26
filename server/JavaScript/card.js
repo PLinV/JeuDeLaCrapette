@@ -11,7 +11,7 @@ export default class Card {
   }
 
   cover() {
-    this.tags[0] = false
+    this.tags[1] = false
   }
   
 }
