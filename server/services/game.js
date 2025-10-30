@@ -1,6 +1,6 @@
 import Deck from './deck.js';
 import Stack from './stack.js';
-
+import { readGame ,writeGame } from '../utils/fileHelper.js';
 
 export default class Game {
   board = [];
@@ -18,6 +18,9 @@ export default class Game {
     
     this.distributeGame(deck1, 0);
     this.distributeGame(deck2, 1);
+     
+    writeGame(this.board); 
+    console.log("nouvelle game")
   }
     
   distributeGame(deck, player) {
@@ -27,8 +30,11 @@ export default class Game {
       this.board[i+ player].push(...deck.take(1))
     }
   }
-
-  afficher() {
-    console.log(this.board);
+  
+  findGame() {
+    const game = readGame();
+    return game;
   }
+  
 }
+

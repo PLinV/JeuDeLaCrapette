@@ -1,0 +1,624 @@
+[
+  {
+    "cards": [
+      {
+        "symbol": "pique",
+        "num": 11,
+        "tags": "Paulin"
+      },
+      {
+        "symbol": "coeur",
+        "num": 10,
+        "tags": "Paulin"
+      },
+      {
+        "symbol": "carreau",
+        "num": 10,
+        "tags": "Paulin"
+      },
+      {
+        "symbol": "tréfle",
+        "num": 12,
+        "tags": "Paulin"
+      },
+      {
+        "symbol": "pique",
+        "num": 12,
+        "tags": "Paulin"
+      },
+      {
+        "symbol": "pique",
+        "num": 10,
+        "tags": "Paulin"
+      },
+      {
+        "symbol": "carreau",
+        "num": 3,
+        "tags": "Paulin"
+      },
+      {
+        "symbol": "tréfle",
+        "num": 3,
+        "tags": "Paulin"
+      },
+      {
+        "symbol": "carreau",
+        "num": 4,
+        "tags": "Paulin"
+      },
+      {
+        "symbol": "coeur",
+        "num": 8,
+        "tags": "Paulin"
+      },
+      {
+        "symbol": "coeur",
+        "num": 5,
+        "tags": "Paulin"
+      },
+      {
+        "symbol": "tréfle",
+        "num": 5,
+        "tags": "Paulin"
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "symbol": "tréfle",
+        "num": 10,
+        "tags": "Anna"
+      },
+      {
+        "symbol": "tréfle",
+        "num": 1,
+        "tags": "Anna"
+      },
+      {
+        "symbol": "tréfle",
+        "num": 9,
+        "tags": "Anna"
+      },
+      {
+        "symbol": "coeur",
+        "num": 7,
+        "tags": "Anna"
+      },
+      {
+        "symbol": "tréfle",
+        "num": 4,
+        "tags": "Anna"
+      },
+      {
+        "symbol": "tréfle",
+        "num": 11,
+        "tags": "Anna"
+      },
+      {
+        "symbol": "tréfle",
+        "num": 5,
+        "tags": "Anna"
+      },
+      {
+        "symbol": "coeur",
+        "num": 3,
+        "tags": "Anna"
+      },
+      {
+        "symbol": "coeur",
+        "num": 2,
+        "tags": "Anna"
+      },
+      {
+        "symbol": "carreau",
+        "num": 9,
+        "tags": "Anna"
+      },
+      {
+        "symbol": "pique",
+        "num": 10,
+        "tags": "Anna"
+      },
+      {
+        "symbol": "coeur",
+        "num": 12,
+        "tags": "Anna"
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "symbol": "pique",
+        "num": 11,
+        "tags": "Paulin"
+      },
+      {
+        "symbol": "coeur",
+        "num": 10,
+        "tags": "Paulin"
+      },
+      {
+        "symbol": "carreau",
+        "num": 10,
+        "tags": "Paulin"
+      },
+      {
+        "symbol": "tréfle",
+        "num": 12,
+        "tags": "Paulin"
+      },
+      {
+        "symbol": "pique",
+        "num": 12,
+        "tags": "Paulin"
+      },
+      {
+        "symbol": "pique",
+        "num": 10,
+        "tags": "Paulin"
+      },
+      {
+        "symbol": "carreau",
+        "num": 3,
+        "tags": "Paulin"
+      },
+      {
+        "symbol": "tréfle",
+        "num": 3,
+        "tags": "Paulin"
+      },
+      {
+        "symbol": "carreau",
+        "num": 4,
+        "tags": "Paulin"
+      },
+      {
+        "symbol": "coeur",
+        "num": 8,
+        "tags": "Paulin"
+      },
+      {
+        "symbol": "coeur",
+        "num": 5,
+        "tags": "Paulin"
+      },
+      {
+        "symbol": "tréfle",
+        "num": 5,
+        "tags": "Paulin"
+      },
+      {
+        "symbol": "tréfle",
+        "num": 7,
+        "tags": "Paulin"
+      },
+      {
+        "symbol": "pique",
+        "num": 5,
+        "tags": "Paulin"
+      },
+      {
+        "symbol": "tréfle",
+        "num": 2,
+        "tags": "Paulin"
+      },
+      {
+        "symbol": "tréfle",
+        "num": 10,
+        "tags": "Paulin"
+      },
+      {
+        "symbol": "pique",
+        "num": 3,
+        "tags": "Paulin"
+      },
+      {
+        "symbol": "tréfle",
+        "num": 11,
+        "tags": "Paulin"
+      },
+      {
+        "symbol": "pique",
+        "num": 7,
+        "tags": "Paulin"
+      },
+      {
+        "symbol": "coeur",
+        "num": 11,
+        "tags": "Paulin"
+      },
+      {
+        "symbol": "pique",
+        "num": 6,
+        "tags": "Paulin"
+      },
+      {
+        "symbol": "pique",
+        "num": 13,
+        "tags": "Paulin"
+      },
+      {
+        "symbol": "carreau",
+        "num": 7,
+        "tags": "Paulin"
+      },
+      {
+        "symbol": "carreau",
+        "num": 11,
+        "tags": "Paulin"
+      },
+      {
+        "symbol": "pique",
+        "num": 1,
+        "tags": "Paulin"
+      },
+      {
+        "symbol": "carreau",
+        "num": 12,
+        "tags": "Paulin"
+      },
+      {
+        "symbol": "coeur",
+        "num": 6,
+        "tags": "Paulin"
+      },
+      {
+        "symbol": "coeur",
+        "num": 9,
+        "tags": "Paulin"
+      },
+      {
+        "symbol": "coeur",
+        "num": 4,
+        "tags": "Paulin"
+      },
+      {
+        "symbol": "tréfle",
+        "num": 13,
+        "tags": "Paulin"
+      },
+      {
+        "symbol": "pique",
+        "num": 9,
+        "tags": "Paulin"
+      },
+      {
+        "symbol": "carreau",
+        "num": 13,
+        "tags": "Paulin"
+      },
+      {
+        "symbol": "carreau",
+        "num": 6,
+        "tags": "Paulin"
+      },
+      {
+        "symbol": "pique",
+        "num": 4,
+        "tags": "Paulin"
+      },
+      {
+        "symbol": "coeur",
+        "num": 13,
+        "tags": "Paulin"
+      },
+      {
+        "symbol": "coeur",
+        "num": 12,
+        "tags": "Paulin"
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "symbol": "tréfle",
+        "num": 10,
+        "tags": "Anna"
+      },
+      {
+        "symbol": "tréfle",
+        "num": 1,
+        "tags": "Anna"
+      },
+      {
+        "symbol": "tréfle",
+        "num": 9,
+        "tags": "Anna"
+      },
+      {
+        "symbol": "coeur",
+        "num": 7,
+        "tags": "Anna"
+      },
+      {
+        "symbol": "tréfle",
+        "num": 4,
+        "tags": "Anna"
+      },
+      {
+        "symbol": "tréfle",
+        "num": 11,
+        "tags": "Anna"
+      },
+      {
+        "symbol": "tréfle",
+        "num": 5,
+        "tags": "Anna"
+      },
+      {
+        "symbol": "coeur",
+        "num": 3,
+        "tags": "Anna"
+      },
+      {
+        "symbol": "coeur",
+        "num": 2,
+        "tags": "Anna"
+      },
+      {
+        "symbol": "carreau",
+        "num": 9,
+        "tags": "Anna"
+      },
+      {
+        "symbol": "pique",
+        "num": 10,
+        "tags": "Anna"
+      },
+      {
+        "symbol": "coeur",
+        "num": 12,
+        "tags": "Anna"
+      },
+      {
+        "symbol": "pique",
+        "num": 5,
+        "tags": "Anna"
+      },
+      {
+        "symbol": "carreau",
+        "num": 4,
+        "tags": "Anna"
+      },
+      {
+        "symbol": "coeur",
+        "num": 1,
+        "tags": "Anna"
+      },
+      {
+        "symbol": "pique",
+        "num": 13,
+        "tags": "Anna"
+      },
+      {
+        "symbol": "pique",
+        "num": 4,
+        "tags": "Anna"
+      },
+      {
+        "symbol": "carreau",
+        "num": 10,
+        "tags": "Anna"
+      },
+      {
+        "symbol": "carreau",
+        "num": 11,
+        "tags": "Anna"
+      },
+      {
+        "symbol": "carreau",
+        "num": 1,
+        "tags": "Anna"
+      },
+      {
+        "symbol": "carreau",
+        "num": 7,
+        "tags": "Anna"
+      },
+      {
+        "symbol": "carreau",
+        "num": 5,
+        "tags": "Anna"
+      },
+      {
+        "symbol": "pique",
+        "num": 8,
+        "tags": "Anna"
+      },
+      {
+        "symbol": "coeur",
+        "num": 9,
+        "tags": "Anna"
+      },
+      {
+        "symbol": "tréfle",
+        "num": 7,
+        "tags": "Anna"
+      },
+      {
+        "symbol": "carreau",
+        "num": 13,
+        "tags": "Anna"
+      },
+      {
+        "symbol": "tréfle",
+        "num": 2,
+        "tags": "Anna"
+      },
+      {
+        "symbol": "coeur",
+        "num": 11,
+        "tags": "Anna"
+      },
+      {
+        "symbol": "coeur",
+        "num": 10,
+        "tags": "Anna"
+      },
+      {
+        "symbol": "coeur",
+        "num": 13,
+        "tags": "Anna"
+      },
+      {
+        "symbol": "carreau",
+        "num": 8,
+        "tags": "Anna"
+      },
+      {
+        "symbol": "tréfle",
+        "num": 12,
+        "tags": "Anna"
+      },
+      {
+        "symbol": "pique",
+        "num": 9,
+        "tags": "Anna"
+      },
+      {
+        "symbol": "carreau",
+        "num": 2,
+        "tags": "Anna"
+      },
+      {
+        "symbol": "carreau",
+        "num": 3,
+        "tags": "Anna"
+      },
+      {
+        "symbol": "pique",
+        "num": 7,
+        "tags": "Anna"
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "symbol": "pique",
+        "num": 11,
+        "tags": "Paulin"
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "symbol": "tréfle",
+        "num": 10,
+        "tags": "Anna"
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "symbol": "pique",
+        "num": 11,
+        "tags": "Paulin"
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "symbol": "tréfle",
+        "num": 10,
+        "tags": "Anna"
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "symbol": "pique",
+        "num": 11,
+        "tags": "Paulin"
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "symbol": "tréfle",
+        "num": 10,
+        "tags": "Anna"
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "symbol": "pique",
+        "num": 11,
+        "tags": "Paulin"
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "symbol": "tréfle",
+        "num": 10,
+        "tags": "Anna"
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "symbol": "pique",
+        "num": 11,
+        "tags": "Paulin"
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "symbol": "tréfle",
+        "num": 10,
+        "tags": "Anna"
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "symbol": "pique",
+        "num": 11,
+        "tags": "Paulin"
+      }
+    ]
+  },
+  {
+    "cards": [
+      {
+        "symbol": "tréfle",
+        "num": 10,
+        "tags": "Anna"
+      }
+    ]
+  },
+  {
+    "cards": []
+  },
+  {
+    "cards": []
+  },
+  {
+    "cards": []
+  },
+  {
+    "cards": []
+  },
+  {
+    "cards": []
+  },
+  {
+    "cards": []
+  }
+]
